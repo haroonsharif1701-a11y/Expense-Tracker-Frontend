@@ -33,9 +33,9 @@ export default function Home() {
 
         <div className="md:col-span-2">
       <RecentTransactions
-  data={expenses}
-  onDelete={deleteExpense}
-/>
+        data={expenses}
+        onDelete={deleteExpense}
+      />
         </div>
       </div>
     </main>
